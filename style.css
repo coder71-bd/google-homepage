@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: right;
+}
+
+header {
+    margin-bottom: 200px;
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    margin-bottom: 50px;
+}
+
+form input {
+    width: 500px;
+    height: 45px;
+    border-radius: 200px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+
+
+.search_input {
+    border: 1px solid black;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 325px;
+}
+
+#buttons {
+    margin: 50px 0 80px 0;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p, .foot_one {
+    margin-bottom: 40px;
+}
