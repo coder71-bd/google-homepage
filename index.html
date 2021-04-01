@@ -10,41 +10,51 @@
 <body>
   <header>    
       <a href="#">Gmail</a>
-      <a href="">Images</a>
+      <a href="#">Images</a>
+      <i class="fas fa-th apps"></i>
+      <i class="fas fa-user-tie person"></i>
   </header>
 
   <main>
-      <p>
-          <span>G</span><span>O</span><span>O</span><span>G</span><span>L</span><span>E</span>
-      </p>
+      <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="this is a logo of google">
+      </div>
       <form>
-          <div class="search_input">
-              <input type="text" placeholder="Search Google or type a URL"></input>
-          </div>
-          <div id="buttons">
-              <button class="btn">Google Search</button>
-              <button class="btn">I'm Feeling Lucky</button>
-          </div>
+        <div class="search_input">
+          <i class="fas fa-search search"></i>
+
+          <input type="text"></input>
           
-          <div class="bangla">
-              <span>Google Offered in: <a href="#">বাংলা</a></span>
-          </div>
+          <i class="fas fa-microphone microphone"></i>
+        </div>
+        <div id="buttons">
+            <button class="btn">Google Search</button>
+            <button class="btn">I'm Feeling Lucky</button>
+        </div>
+          
+        <div class="bangla">
+            <p>Google Offered in:&nbsp; <a href="#">বাংলা</a></p>
+        </div>
       </form>
   </main>
   
   <footer>
-      <p>Bangladesh</p>
+    <p class="bangladesh">Bangladesh</p>
+    <div class="foot_container">
       <div class="foot_one foot_link">
-          <span><a href="#">Privacy</a></span>
-          <span><a href="#">Terms</a></span>
-          <span><a href="#">Settings</a></span>
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
       </div>
+  
       <div class="foot_two foot_link">
-          <span><a href="#">Advertising</a></span>
-          <span><a href="#">Business</a></span>
-          <span><a href="#">About</a></span>
-          <span><a href="#">How Search Works</a></span>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#" class="pad">Settings</a>
       </div>
+    </div>
+    
   </footer>
 </body>
 </html>
