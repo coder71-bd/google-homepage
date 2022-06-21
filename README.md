@@ -1,7 +1,7 @@
 <div align="center">
   <h3>
   <!--add firebase hosting link here-->
-    <a href="https://biriderpro.web.app/](https://coder71-bd.github.io/google-homepage">
+    <a href="https://coder71-bd.github.io/google-homepage/">
       LIVE DEMO
     </a>
   </h3>
